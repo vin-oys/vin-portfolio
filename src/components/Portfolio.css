@@ -1,0 +1,40 @@
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px lightgrey solid;
+  margin: 30px 20px;
+  overflow: hidden;
+  height: 450px;
+  min-width: 300px;
+  flex: 0 0 25%;
+  text-align: center;
+}
+
+.card-img {
+  margin: 10px 0;
+  height: 45%;
+}
+
+.card-body h3 {
+  margin: 25px 10px;
+  font-size: 25px;
+}
+
+.card-body p {
+  margin: 15px 10px 30px 10px;
+  height: 75px;
+}
+
+span a {
+  text-decoration: none;
+  color: blue;
+}
+
+@media (max-width: 576px) {
+  .card {
+  }
+}

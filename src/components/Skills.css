@@ -1,0 +1,43 @@
+i {
+  font-size: 75px;
+}
+
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-card {
+  text-align: center;
+  flex: 0 0 25%;
+  margin: 15px 0;
+}
+
+.tech-card p {
+  margin: 20px 0;
+}
+
+.skill-content h3 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 30px;
+}
+
+@media (max-width: 576px) {
+  i {
+    font-size: 50px;
+  }
+
+  .tech-card {
+    text-align: center;
+    flex: 0 0 33.33%;
+    margin: 20px 0;
+    text-transform: capitalize;
+  }
+
+  .skill-content h3 {
+    font-size: 20px;
+    margin: 20px;
+  }
+}

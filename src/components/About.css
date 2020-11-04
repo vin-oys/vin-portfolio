@@ -1,0 +1,50 @@
+.about-col {
+  flex: 1;
+  margin: 20px;
+  min-width: 320px;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-img {
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 10px;
+}
+
+.social-media {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+}
+
+.social-media li a {
+  color: navy;
+}
+
+.social-media li {
+  margin: auto;
+}
+
+.about-des {
+  text-align: center;
+}
+
+.about-des h3 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.about-des p {
+  font-size: 20px;
+  margin: 0 20px 40px 20px;
+}

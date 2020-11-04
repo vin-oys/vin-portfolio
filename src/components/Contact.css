@@ -1,0 +1,10 @@
+.contact-content {
+  text-align: center;
+  margin: 30px 10px;
+  font-size: 22px;
+}
+
+.contact-content span {
+  display: block;
+  margin: 10px 0;
+}
